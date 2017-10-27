@@ -1,0 +1,41 @@
+body {
+	background-color: aqua;
+	background: url("../img/bg.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: gray;
+	font-family:'Roboto', sans-serif;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {size: 50px;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 0;
+}
+
+h2 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+#me {
+	height: 200px;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	margin-top: 50px;
+}
+
+.about{
+	width: 100%;
+}
+
+.container {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
