@@ -4,7 +4,7 @@
 	<title>HTML Activity 1</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0"> <!-- it tells the browser that this is mobile friendly -->
-	<meta name="X-UA-Compatible" content="IE=Edge"> <!-- compatibility to old version of internet exporer -->
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"> <!-- compatibility to old version of internet exporer -->
 	<style type="text/css"></style>
 
 </head>
@@ -12,10 +12,10 @@
 
 <div class="article">
 	
-		<h1>6 Best Outreach Marketing Tactics to Promote your Site</h1>
+		<a name="top"><h1>6 Best Outreach Marketing Tactics to Promote your Site</h1></a>
 		<h4><small>Promote Your Site \ August 9, 2017</small></h4>
 
-		<img src="https://static-wix-blog.wix.com/blog/wp-content/uploads/2017/08/summary.png">
+		<img src="https://static-wix-blog.wix.com/blog/wp-content/uploads/2017/08/summary.png" alt="working on her outreach">
 
 			<h2>Collect your target sites</h2>
 
@@ -67,7 +67,19 @@
 
 <form>
 	
-	<input type="" name="">
+	Name: <input type="text" name="name"><br>
+	Email: <input type="email" name="email"><br>
+	Continent:
+
+	<select name="continent">
+		<option value="asia">Asia</option>
+	</select>
+
+	<br>
+
+	Would you try this approach? Yes <input type="radio" name="try" value="yes"> No <input type="radio" name="try" value="no"><br>
+	Comment: <textarea placeholder=""></textarea><br>
+	<input type="submit" name="submit">
 
 </form>
 
@@ -77,7 +89,7 @@
 <br>
 
 
-<p>Back to top</p>
+<a href="#top"><p>Back to top</p></a>
 
 
 <footer>
