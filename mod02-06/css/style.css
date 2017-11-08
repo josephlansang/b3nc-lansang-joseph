@@ -2,26 +2,26 @@
 *{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 .wrapper {
 	border: 1px solid blue;
-	width: 70%;
-	margin: 0 auto;
-	padding: 20px;
-	background-color: skyblue;
-
+	width: 48%;
+	margin: 20px auto;
+	padding: 10px;
 }
 
 div.wrapper > div,
 div.wrapper > div > div	{
 
 	border: 2px solid #5d6063;
-	background-color: 2px skyblue;
+	background-color: skyblue;
 	padding: 20px;
 	text-align: center;
 	border-radius: 5px;
 	margin-top: 15px;
+	width: 50%;
 }
 
 h1,
@@ -48,7 +48,12 @@ strong{
 }
 
 p {
-	padding: 20px 0 20px 10px;
-	margin-bottom: 50px;
+	padding: 14px;
+	/*margin-bottom: 50px;*/
 	margin-top: 25px;
+}
+
+span {
+	font-size: 2em;
+	color: red;
 }
