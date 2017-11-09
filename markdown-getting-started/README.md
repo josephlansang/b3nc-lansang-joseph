@@ -41,6 +41,17 @@ echo('Hello world!');
 ## Emoji
 
 :monkey:
+<<<<<<< HEAD
+=======
+
+:star2:
+
+:speech_balloon:
+
+:zap:
+
+:v:
+>>>>>>> 96b58409b24ea077e9d36fa6c315b32047f4b8d5
 
 :star2:
 
