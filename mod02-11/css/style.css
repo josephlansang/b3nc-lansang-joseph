@@ -1,0 +1,101 @@
+
+/*section 1*/
+.black-container-1 {
+	background-color: black;
+	width: 700px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.grey-boxes {
+	width: 150px;
+	height: 150px;
+	background-color: grey;
+	margin: 10px;
+	display: inline-block;
+}
+
+/*section 2*/
+
+.black-container-2 {
+	border: 1px solid white;
+	background-color: black;
+	width: 700px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.white-border-container {
+	border: 1px solid white;
+	display: inline-block;
+	margin: 10px;
+}
+
+.greybox2 {
+	background-color: grey;
+	width: 150px;
+	height:150px;
+	margin:10px;
+
+}
+
+.black-container2, p {
+	color: white;
+	text-align: center;
+
+}
+
+/*section 3*/
+
+.blackcontainer3 {
+	background-color: black;
+	width: 700px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.greybox3 {
+	background-color: grey;
+	width: 150px;
+	height:150px;
+	margin:10px;
+	float: left;
+}
+
+.blackcontainer3, p{
+	text-align:left;
+	color: white;
+}
+
+/*section 4*/
+
+.blackcontainer4 {
+	background-color: black;
+	width: 700px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.blackcontainer4, p{
+	color: white;
+
+}
+
+.content-container {
+	border: 1px solid white;
+}
+
+.greybox4 {
+	background-color: grey;
+	width: 150px;
+	height:150px;
+	margin:10px;
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+.textcontainer4 {
+	display: inline-block;
+	width: 70%;
+}
