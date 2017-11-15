@@ -1,3 +1,21 @@
+p {
+	color: white;
+}
+
+h2 {
+	color: white;
+}
+
+h3 {
+	color:white;
+}
+
+.wrapper {
+	width: 1000px;
+	margin: auto;
+}
+
+
 
 /*section 1*/
 .black-container-1 {
@@ -15,6 +33,13 @@
 	display: inline-block;
 }
 
+.grey-boxes> img {
+	width: 150px;
+	height: 150px;
+	float:left;
+}
+
+
 /*section 2*/
 
 .black-container-2 {
@@ -31,19 +56,25 @@
 	margin: 10px;
 }
 
+.caption2 {
+	text-align: center;
+
+}
+
 .greybox2 {
 	background-color: grey;
 	width: 150px;
 	height:150px;
 	margin:10px;
-
 }
 
-.black-container2, p {
-	color: white;
-	text-align: center;
-
+.greybox2> img {
+	width: 150px;
+	height: 150px;
+	float:left;
 }
+
+
 
 /*section 3*/
 
@@ -62,6 +93,12 @@
 	float: left;
 }
 
+.greybox3> img {
+	width: 150px;
+	height: 150px;
+	float:left;
+}
+
 .blackcontainer3, p{
 	text-align:left;
 	color: white;
@@ -76,10 +113,6 @@
 	margin: 10px;
 }
 
-.blackcontainer4, p{
-	color: white;
-
-}
 
 .content-container {
 	border: 1px solid white;
@@ -95,7 +128,237 @@
 
 }
 
+.greybox4> img {
+	width: 150px;
+	height: 150px;
+	float:left;
+}
+
+
 .textcontainer4 {
 	display: inline-block;
 	width: 70%;
+}
+
+
+/*Section 5*/
+
+.blackcontainer5 {
+
+	margin: 10px;
+	width: 700px;
+	padding: 10px;
+	background-color: black;
+}
+
+.textarea5 {
+	width: 90%;
+	display: inline-block;
+	height: 100px;
+}
+
+.greybox5 {
+	background-color: grey;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	vertical-align: top;
+}
+
+.greybox5> img {
+	width: 50px;
+	height: 50px;
+	float:left;
+}
+
+.buttons5 {
+	text-align: right;
+}
+
+/*section 6*/
+
+.blackcontainer6 {
+	width: 700px;
+	background-color: black;
+	padding: 10px;
+	margin: 10px;
+}
+
+.greybox6 {
+	width: 50px;
+	height: 50px;
+	background-color: grey;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.content6 {
+	width: 91%;
+	display: inline-block;
+}
+
+.link	{
+	display: inline-block;
+	color:blue;
+}
+
+/*section 6*/
+
+/*section 7*/
+
+
+.blackcontainer7 {
+	background-color: black;
+	width: 500px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.greybox7 {
+	height: 100px;
+	background-color: grey;
+	width:39%;
+	display: inline-block;
+}
+
+.content7 {
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+.content7> p{
+	color: grey;
+	padding: 0;
+	margin: 0;
+}
+
+.content7> h3{
+	margin: 0;
+}
+
+/*section 8*/
+
+
+.blackcontainer8 {
+	background-color: black;
+	width: 500px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.greybox8 {
+	height: 100px;
+	background-color: grey;
+	width:39%;
+	display: inline-block;
+}
+
+.content8 {
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+.content8> p{
+	color: grey;
+	padding: 0;
+	margin: 0;
+}
+
+.content8> h3{
+	margin: 0;
+}
+
+/*section 9*/
+
+.blackcontainer9 {
+	background-color: black;
+	width: 700px;
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+
+}
+
+.content9 {
+
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.boxcontainer {
+	display: inline-block;
+	width: 69%;
+	border: 1px solid black;
+}
+
+.greybox9 {
+	background-color: grey;
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+
+}
+
+/*section 10*/
+
+.black-container-10 {
+	border: 1px solid white;
+	background-color: black;
+	width: 1000px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.white-border-container-10 {
+	border: 1px solid white;
+	display: inline-block;
+	margin: 10px;
+	padding: 5px;
+}
+
+.caption2 {
+	text-align: center;
+
+}
+
+.greybox10 {
+	background-color: grey;
+	width: 150px;
+	height:100px;
+}
+
+.boxcontainer10 {
+
+width: 60%;
+display: inline-block;
+
+}
+
+.content10 {
+	width: 39%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.largegreybox {
+	width: 100%;
+	height: 200px;
+	background-color: grey;
+}
+.beautifulbox {
+	height: 100px;
+	width: 150px;
+	background-color: grey;
+	float: left;
+	margin-right: 5px;
+}
+
+.link10 {
+	color: white;
+	background-color: grey;
+	display: inline-block;
+	margin: 5px;
 }
