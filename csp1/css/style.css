@@ -1,0 +1,29 @@
+/*code to resize height of carousel*/
+.carousel .item {
+  height: 600px;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 600px;
+}
+/*code to resize height of carousel*/
+
+
+
+
+.row {
+	border: solid 1px black;
+}
+
+.social-impact {
+	border: solid 1px black;
+	margin: 50px;
+	text-align: center;
+}
+
+.glyphicon {
+    font-size: 50px;
+}
