@@ -1,29 +1,87 @@
-/*code to resize height of carousel*/
-.carousel .item {
-  height: 600px;
-}
-
-.item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 600px;
-}
-/*code to resize height of carousel*/
-
-
-
-
-.row {
-	border: solid 1px black;
-}
-
-.social-impact {
-	border: solid 1px black;
-	margin: 50px;
+.jumbotron {
 	text-align: center;
+	background-image: url("https://scontent.fmnl9-1.fna.fbcdn.net/v/t1.0-9/24174655_1572391556174228_3206950032711634148_n.jpg?oh=c25cce4e3325f0927d9b8b37b9bea6ad&oe=5ACA8DB8");
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 80%;
+}
+
+/*about*/
+.about {
+	text-align: center;
+	background-image: url("https://scontent.fmnl9-1.fna.fbcdn.net/v/t1.0-9/18922054_1408627932550592_5263476913666872176_n.jpg?oh=1abd185a1c7022966755b76b8a5e94b0&oe=5A9A06B6");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.about-box {
+	background: rgb(140, 199, 57, 0.9);
+	padding: 75px;
 }
 
 .glyphicon {
     font-size: 50px;
 }
+/*about*/
+
+
+/*testimonials*/
+.testimonials {
+/*	border: solid 1px black;*/
+	text-align: center;
+	font-style: italic;
+}
+
+.testi-profile {
+	padding: 25px;
+}
+
+.testi-caption {
+/*	border: solid 1px black;*/
+	padding: 25px;
+}
+
+blockquote {
+	font-size: 14px;
+}
+
+/*testimonials*/
+
+/*social impact*/
+.social-impact {
+/*	border: solid 1px black;*/
+	text-align: center;
+	background-image: url("https://scontent.fmnl9-1.fna.fbcdn.net/v/t1.0-9/19424284_1422888151124570_2602603949267249622_n.jpg?oh=51695fad94939ea01381334aab5c972e&oe=5A957527");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.social-impact-box {
+	padding: 50px;
+	background: rgb(33, 190, 222, 0.9);
+}
+
+.social-content {
+	border: solid 3px white;
+	padding: 15px;
+}
+
+/*social impact*/
+
+/*footer*/
+.footer	{
+	height: 100px;
+	padding: 25px;
+	background-color: #085DAD;
+	color: white;
+}
+
+#footer-social-media {
+	text-align: right;
+}
+/*footer*/
+
+/*colorscheme https://www.colorcombos.com/color-schemes/137/ColorCombo137.html*/
