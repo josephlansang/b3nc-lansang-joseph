@@ -1,10 +1,23 @@
-.jumbotron {
-	text-align: center;
-	background-image: url("https://scontent.fmnl9-1.fna.fbcdn.net/v/t1.0-9/24174655_1572391556174228_3206950032711634148_n.jpg?oh=c25cce4e3325f0927d9b8b37b9bea6ad&oe=5ACA8DB8");
+/*banner*/
+.banner {
 	height: 500px;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 50% 80%;
+}
+
+.banner img {
+	min-width: 100%;
+	position: relative;
+	bottom: 350px;
+}
+
+/*carousel*/
+.item {
+	height: 500px;
+}
+
+.item img {
+	min-width: 100%;
+	position: relative;
+	bottom: 350px;
 }
 
 /*about*/
@@ -14,10 +27,11 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	margin-top: 25px;
 }
 
 .about-box {
-	background: rgb(140, 199, 57, 0.9);
+	background: rgba(140, 199, 57, 0.9);
 	padding: 75px;
 }
 
@@ -61,7 +75,7 @@ blockquote {
 
 .social-impact-box {
 	padding: 50px;
-	background: rgb(33, 190, 222, 0.9);
+	background: rgba(33, 190, 222, 0.9);
 }
 
 .social-content {
@@ -77,11 +91,24 @@ blockquote {
 	padding: 25px;
 	background-color: #085DAD;
 	color: white;
+	margin-top: 25px;
 }
 
 #footer-social-media {
 	text-align: right;
 }
 /*footer*/
+
+
+
+
+
+/*media*/
+
+.media {
+	background-color: #ADB6B5;
+}
+
+/*media*/
 
 /*colorscheme https://www.colorcombos.com/color-schemes/137/ColorCombo137.html*/
