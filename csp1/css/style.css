@@ -1,12 +1,26 @@
 /*banner*/
-.banner {
+.banner_about {
 	height: 500px;
+	background-image: url("C:/Users/Night3/Documents/b3nc-lansang-joseph/csp1/img/banner_about.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: bottom;
 }
 
-.banner img {
-	min-width: 100%;
-	position: relative;
-	bottom: 350px;
+.banner_contact {
+	height: 500px;
+	background-image: url("C:/Users/Night3/Documents/b3nc-lansang-joseph/csp1/img/team.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+}
+
+.banner_projects {
+	height: 500px;
+	background-image: url("C:/Users/Night3/Documents/b3nc-lansang-joseph/csp1/img/bsilangan.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
 }
 
 /*carousel*/
@@ -15,9 +29,13 @@
 }
 
 .item img {
+	min-width: 100%;	
+}
+
+#banner3 {
 	min-width: 100%;
 	position: relative;
-	bottom: 350px;
+	bottom: 250px;
 }
 
 /*about*/
