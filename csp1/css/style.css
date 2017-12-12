@@ -1,7 +1,7 @@
-/*banner*/
+
 .banner_about {
 	height: 500px;
-	background-image: url("C:/Users/Night3/Documents/b3nc-lansang-joseph/csp1/img/banner_about.jpg");
+	background-image: url("../img/banner_about.jpg");
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position: bottom;
@@ -9,7 +9,7 @@
 
 .banner_contact {
 	height: 500px;
-	background-image: url("C:/Users/Night3/Documents/b3nc-lansang-joseph/csp1/img/team.jpg");
+	background-image: url("../img/team.jpg");
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position: center;
@@ -17,26 +17,30 @@
 
 .banner_projects {
 	height: 500px;
-	background-image: url("C:/Users/Night3/Documents/b3nc-lansang-joseph/csp1/img/bsilangan.jpg");
+	background-image: url("../img/bsilangan.jpg");
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position: center;
 }
 
 /*carousel*/
-.item {
-	height: 500px;
+
+.banner {
+  width: 100%;
+}
+.carousel-inner{
+  width:100%;
+  max-height: 600px !important;
 }
 
-.item img {
-	min-width: 100%;	
+/*carousel*/
+.container {
+	margin: 25px;
 }
+/*container*/
 
-#banner3 {
-	min-width: 100%;
-	position: relative;
-	bottom: 250px;
-}
+
+/*container*/
 
 /*about*/
 .about {
@@ -129,4 +133,4 @@ blockquote {
 
 /*media*/
 
-/*colorscheme https://www.colorcombos.com/color-schemes/137/ColorCombo137.html*/
+/*colorscheme https://www.colorcombos.com/color-schemes/137/ColorCombo137.html
