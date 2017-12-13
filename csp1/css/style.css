@@ -1,6 +1,6 @@
-
+/*banner*/
 .banner_about {
-	height: 500px;
+	height: 600px;
 	background-image: url("../img/banner_about.jpg");
 	background-repeat: no-repeat;
 	background-size:cover;
@@ -8,7 +8,7 @@
 }
 
 .banner_contact {
-	height: 500px;
+	height: 600px;
 	background-image: url("../img/team.jpg");
 	background-repeat: no-repeat;
 	background-size:cover;
@@ -16,45 +16,48 @@
 }
 
 .banner_projects {
-	height: 500px;
+	height: 600px;
 	background-image: url("../img/bsilangan.jpg");
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position: center;
 }
 
-/*carousel*/
 
+/*carousel*/
 .banner {
   width: 100%;
+
 }
 .carousel-inner{
   width:100%;
-  max-height: 600px !important;
+  max-height: 600px;
 }
 
-/*carousel*/
-.container {
-	margin: 25px;
-}
-/*container*/
-
-
-/*container*/
 
 /*about*/
 .about {
 	text-align: center;
-	background-image: url("https://scontent.fmnl9-1.fna.fbcdn.net/v/t1.0-9/18922054_1408627932550592_5263476913666872176_n.jpg?oh=1abd185a1c7022966755b76b8a5e94b0&oe=5A9A06B6");
+/*	background-image: url("../img/bsilangan.jpg");*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	margin-top: 25px;
+	overflow: hidden;
 }
 
 .about-box {
-	background: rgba(140, 199, 57, 0.9);
-	padding: 75px;
+/*	background: rgba(140, 199, 57, 0.9);
+	padding: 75px;*/
+/*	border: 1px solid black;*/
+	padding: 25px;
+	width: 370px;
+	height: 200px;
+	overflow: hidden;
+	margin: 10px;
+	background-color: #8CC739;
+	position: relative;
+	opacity: 0.9;
 }
 
 .glyphicon {
@@ -89,7 +92,7 @@ blockquote {
 .social-impact {
 /*	border: solid 1px black;*/
 	text-align: center;
-	background-image: url("https://scontent.fmnl9-1.fna.fbcdn.net/v/t1.0-9/19424284_1422888151124570_2602603949267249622_n.jpg?oh=51695fad94939ea01381334aab5c972e&oe=5A957527");
+	background-image: url("../img/banner.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -107,6 +110,45 @@ blockquote {
 
 /*social impact*/
 
+
+.container {
+	margin-top: 25px;
+}
+
+.project-wrapper h2{
+	color: white;
+}
+
+.project-box {
+	border: 1px solid black;
+	padding: 0;
+	width: 350px;
+	height: 300px;
+	overflow: hidden;
+	margin: 15px;
+	background-color: black;
+	position: relative;
+}
+
+.project-box img {
+	height: 100%;
+	opacity: 0.5;
+}
+
+.project-box h2 {
+   float: left;
+   position: absolute;
+   left: 10px;
+   top: 0px;
+   z-index: 1000;
+   padding: 5px;
+   color: #FFFFFF;
+   font-weight: bold;
+}
+
+
+
+
 /*footer*/
 .footer	{
 	height: 100px;
@@ -122,15 +164,5 @@ blockquote {
 /*footer*/
 
 
-
-
-
-/*media*/
-
-.media {
-	background-color: #ADB6B5;
-}
-
-/*media*/
 
 /*colorscheme https://www.colorcombos.com/color-schemes/137/ColorCombo137.html
