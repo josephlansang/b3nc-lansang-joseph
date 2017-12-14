@@ -38,25 +38,13 @@
 /*about*/
 .about {
 	text-align: center;
-/*	background-image: url("../img/bsilangan.jpg");*/
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
 	margin-top: 25px;
-	overflow: hidden;
 }
 
 .about-box {
-/*	background: rgba(140, 199, 57, 0.9);
-	padding: 75px;*/
-/*	border: 1px solid black;*/
+	height: 220px;
 	padding: 25px;
-	width: 370px;
-	height: 200px;
-	overflow: hidden;
-	margin: 10px;
 	background-color: #8CC739;
-	position: relative;
 	opacity: 0.9;
 }
 
@@ -120,7 +108,7 @@ blockquote {
 }
 
 .project-box {
-	border: 1px solid black;
+
 	padding: 0;
 	width: 350px;
 	height: 300px;
@@ -151,16 +139,17 @@ blockquote {
 
 /*footer*/
 .footer	{
-	height: 100px;
+
 	padding: 25px;
 	background-color: #085DAD;
 	color: white;
 	margin-top: 25px;
 }
 
-#footer-social-media {
+.social-box {
 	text-align: right;
 }
+
 /*footer*/
 
 
