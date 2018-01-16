@@ -8,6 +8,9 @@ function getTitle() {
 
 function getLyrics($day) {
 
+	$onthe = "on the";
+	$love = "day of Christmas my true love gave to me <br>";
+
 	$days = array('first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh','eight','ninth','tenth','elevent','twelve');
 
 	$gifts = array(
@@ -28,6 +31,6 @@ function getLyrics($day) {
 	);
 
 
-return $days[$day] . " " . $gifts[$day];
+return $onthe . " " . $days[$day] . " " . $love . " " . $gifts[$day];
 
 }

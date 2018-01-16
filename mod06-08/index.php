@@ -1,7 +1,5 @@
-<?php 	
-
+<?php
 require_once 'assets/lib/twelve_days.php';
-
  ?>
 
  <!DOCTYPE html>
@@ -18,28 +16,43 @@ require_once 'assets/lib/twelve_days.php';
 
 <br>
 
-<h1 class="one">
+	<p id="demo"></p>
 
- <?php 	
+	 <?php 	
 
- 		for ($counter = 0; $counter < 11; $counter++) {
+	 echo "<script>
+	 var lyrics = [";
 
-				echo getLyrics($counter) . "<br>";
+	 for ($counter = 0; $counter < 12; $counter++) {
 
+		echo '"'.getLyrics($counter) . '"';
+		echo ",";
 		};
 
-
- ?>
-
-</h1>
-
-<button onclick="document.getElementByClass('one').innerHTML = >
+		echo "];";
+ 		echo '</script>';
+	 ?>
 
 
+<button onclick="myFunction()">Click me</button>
 
+<p id="here"></p>
 
+<script>
+
+var y = 0;
+function myFunction() {
+	document.getElementById("here").innerHTML += lyrics[y] + "<br>";
+    y++;
+}
+
+</script>
 
 		<script type="text/javascript"></script>
 
  </body>
  </html>
+
+
+
+
